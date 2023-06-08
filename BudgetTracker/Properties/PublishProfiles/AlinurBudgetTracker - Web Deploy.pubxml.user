@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAP70jNDIxHE6r+SgCeuq9EwAAAAACAAAAAAAQZgAAAAEAACAAAABIZVBaJcLae5HSyX/Bk4K5cjfhBCLT/3Cf8kMDayDO5AAAAAAOgAAAAAIAACAAAADYcAzW78kBQGa1BJXV5/fXJ9hJMjv1HHCcPAK9EcfWEIAAAABb5UgrQReI5hHT4CKv5RUgKlOuk3/FlGKWlbitV3vMHikWa2UJvKtROBjoiKjX8O4sWEtmXER/4Gs/iaW5fUBgwxZb+o45jimYCks8RFBohOzzX0Z54Zv21C2f8g5tDiSXWkWZiJX8Obu+j7HU9IPM3i3OO/7InwR4Au6TYgd/DkAAAAC4gx8Gwu8J3fp8eq+elQ/wyA61TaJUKNP3ocWrQg8mYCjdGHlfXR/7gO4RisB5iGITKPVYLtZUMt5iVaG6HARA</EncryptedPassword>
+    <History>True|2023-06-06T02:27:40.5469965Z;True|2023-06-06T08:23:19.7163256+06:00;True|2023-06-06T07:35:57.5658903+06:00;True|2023-06-06T07:20:45.3363767+06:00;False|2023-06-06T07:16:56.8054727+06:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Default">
+      <Value>Server=tcp:alinur-mirlan-budget-tracker.database.windows.net,1433%3bInitial Catalog=BudgetTracker%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=A19eZm18%2a11b%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BudgetTracker.Data.ApplicationDbContext">
+      <Value>Server=tcp:alinur-mirlan-budget-tracker.database.windows.net,1433%3bInitial Catalog=BudgetTracker%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=A19eZm18%2a11b%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

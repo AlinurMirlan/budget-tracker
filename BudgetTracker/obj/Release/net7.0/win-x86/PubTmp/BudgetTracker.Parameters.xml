@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="AlinurBudgetTracker" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Alinur\\university-work\\6th-semester-course-work\\budget-tracker\\BudgetTracker\\obj\\Release\\net7\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="BudgetTracker.Data.ApplicationDbContext" description="" value="Server=tcp:alinur-mirlan-budget-tracker.database.windows.net,1433;Initial Catalog=BudgetTracker;Persist Security Info=False;User ID=admin-sql;Password=A19eZm18*11b;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Alinur\\university-work\\6th-semester-course-work\\budget-tracker\\BudgetTracker\\obj\\Release\\net7\.0\\win-x86\\PubTmp\\EFSQLScripts\\BudgetTracker\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
